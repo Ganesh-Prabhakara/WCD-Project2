@@ -12,7 +12,7 @@ This repository consists of files required for end to end implementation and dep
 
 ## App Link
 If you want to view the deployed model, click on the following link:<br />
-[http://http://project2-env.eba-tw7mvppa.ap-south-1.elasticbeanstalk.com]([https://allysoncaragency.herokuapp.com/](http://http://project2-env.eba-tw7mvppa.ap-south-1.elasticbeanstalk.com))
+[http://project2-env.eba-tw7mvppa.ap-south-1.elasticbeanstalk.com]([https://allysoncaragency.herokuapp.com/](http://http://project2-env.eba-tw7mvppa.ap-south-1.elasticbeanstalk.com))
 
 A glimpse of the web app:
 
