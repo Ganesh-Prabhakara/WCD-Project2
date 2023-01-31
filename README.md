@@ -32,7 +32,7 @@ python -m app.py
 Image of this Web Application is uploaded on my Github repository.
 <br />Please use this link to access the image on Docker hub: https://hub.docker.com/r/gprabhakara/wcd_project3/tags
 <br />If you would like to download the image to your local server,Please use this command to pull the image: docker pull gprabhakara/wcd_project3:car-rental-webapp
-<br />Once the image is downloaded. Please use Docker run and please specify the ports (i.e docker run -d -p ports:ports <Image ID>). Once the image is ran webapp will be hosted on your local host on the specified port. To view the webapp visit http://localhost:port
+<br />Once the image is downloaded. Please use Docker run and please specify the ports (i.e docker run -d -p [PORT_ON_YOUR_BROWSER]:[PORT_ON_CONTAINER] <Image ID>). Once the image is ran webapp will be hosted on your local host on the specified port. To view the webapp visit http://localhost:port
 
 ## Technologies Used
 
