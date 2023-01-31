@@ -29,7 +29,8 @@ pip install -r requirements.txt
 python -m app.py
 ```
 ## Dockerhub
-Image of the Webapp is uploaded on my Github repository. Please use this link to access the image: https://hub.docker.com/r/gprabhakara/wcd_project3/tags
+Image of this Web Application is uploaded on my Github repository.
+Please use this link to access the image: https://hub.docker.com/r/gprabhakara/wcd_project3/tags
 Please use this command to pull this image: docker pull gprabhakara/wcd_project3:car-rental-webapp
 Once the image is downloaded. Please use Docker run and please specify the ports (i.e docker run -d -p ports:ports <Image ID>). Once the image is ran webapp will be hosted on your local host on the specified port. To view the webapp visit http://localhost:port
 
