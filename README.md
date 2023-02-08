@@ -34,6 +34,10 @@ Image of this Web Application is uploaded on my Github repository.
 <br />If you would like to download the image to your local server,Please use this command to pull the image: docker pull gprabhakara/wcd_project3:car-rental-webapp
 <br />Once the image is downloaded. Please use Docker run and please specify the ports (i.e docker run -d -p [PORT_ON_YOUR_BROWSER]:[PORT_ON_CONTAINER] <Image ID>). Once the image is ran webapp will be hosted on your local host on the specified port. To view the webapp visit http://localhost:port
 
+You can also pull the application from Docker hub repo using the docker-compose yaml file in the code.
+<br /> To run the application through docker-compose.yaml follow these steps:
+<br /> 1. 
+
 ## AWS EKS
 The web application is also being run on the Amazon Elastic Kubernetes Service.
 To access the application running on EKS please use the following link : http://a335533950c374b909e4113d954da603-2013261361.ap-south-1.elb.amazonaws.com:5000/
