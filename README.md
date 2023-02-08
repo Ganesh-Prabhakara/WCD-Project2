@@ -35,8 +35,7 @@ Image of this Web Application is uploaded on my Github repository.
 <br />Once the image is downloaded. Please use Docker run and please specify the ports (i.e docker run -d -p [PORT_ON_YOUR_BROWSER]:[PORT_ON_CONTAINER] <Image ID>). Once the image is ran webapp will be hosted on your local host on the specified port. To view the webapp visit http://localhost:port
 
 You can also pull the application from Docker hub repo using the docker-compose yaml file in the code.
-<br /> To run the application through docker-compose.yaml follow these steps:
-<br /> 1. 
+<br /> To run the application through docker-compose.yaml, run "docker-compose up --build". To view the webapp visit http://localhost:port
 
 ## AWS EKS
 The web application is also being run on the Amazon Elastic Kubernetes Service.
