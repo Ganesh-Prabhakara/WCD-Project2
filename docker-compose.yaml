@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: gprabhakara/wcd_project3:car-rental-webapp
+    ports:
+      - '5000:5000'
+    volumes:
+      - .:/code
