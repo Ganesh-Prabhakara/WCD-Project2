@@ -1,0 +1,22 @@
+piVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flaskapi-deployment
+  namespace: eks-deployment-p4
+  labels:
+    app: flaskapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flaskapi
+  template:
+    metadata:
+      labels:
+        app: flaskapi
+    spec:
+      containers:
+      - name: wcd-project4
+        image: 220910835016.dkr.ecr.ap-south-1.amazonaws.com/wcd-project4:latest
+        ports:
+        - containerPort: 5000
